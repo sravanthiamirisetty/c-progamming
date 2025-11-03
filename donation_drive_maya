@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int n, x, remaining_number_of_donation;
+scanf("%d%d",&n, &x);
+remaining_number_of_donation=n-x;
+printf("%d", remaining_number_of_donation);
+return 0;
+}
