@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int x,y, z, maximum_number_of_chocolates;
+scanf("%d%d%d",&x,&y,&z);
+maximum_number_of_chocolates=(x*5+y*10)/z;
+printf("%d", maximum_number_of_chocolates);
+return 0;
+}
