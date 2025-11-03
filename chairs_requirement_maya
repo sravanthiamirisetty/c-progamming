@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int x, y, required_chairs;
+scanf("%d%d",&x, &y);
+required_chairs=x-y;
+printf("%d", required_chairs);
+return 0;
+}
