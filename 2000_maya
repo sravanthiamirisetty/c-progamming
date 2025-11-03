@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+int n, notes_needed;
+scanf("%d", &n);
+notes_needed=(n*2000)/500;
+printf("%d", notes_needed) ;
+return 0;
+}
